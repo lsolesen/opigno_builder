@@ -17,6 +17,7 @@ before_script:
   - cd ../discimport.dk
   - sudo chmod -R 777 sites/all/modules
   - drush si opigno_lms --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
+  - drush en campus_deploy -y
   - drush cc all --yes
   - cd ../opigno_builder
 
