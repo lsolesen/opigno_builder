@@ -9,3 +9,4 @@ includes[] =  https://raw.github.com/lsolesen/opigno_builder/7.x-1.x/drupal-org.
 ; Commerce Kickstart
 projects[opigno_lms][type] = profile
 projects[opigno_lms][version] = 1.15
+projects[opigno_lms][patch][] = https://www.drupal.org/files/issues/issue-2357401.patch
